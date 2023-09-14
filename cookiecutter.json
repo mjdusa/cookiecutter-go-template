@@ -1,0 +1,62 @@
+{
+    "authors_full_name": "",
+    "github_username": "",
+    "app_name": "",
+    "project_short_description": "",
+    "app": {
+        "company": "go-template-app-company-name",
+        "project": "go-template-app-project",
+        "name": "go-template-app-name",
+        "org": "go-template-app-org",
+        "description": "go template project",
+        "version": "0.0.0",
+        "ecr_data_classification_tag": "non-pii",
+        "runner_group_name": "TBD"
+    },
+    "contact": {
+        "team": "contact-team",
+        "name": "Contact Team",
+        "url": "http://myurl.tld/"
+    },
+    "copyright": {
+        "notice": "Copyright (c) 2023 {{ cookiecutter.app.company }} and individual contributors."
+    },
+    "github": {
+        "org": "{{ cookiecutter.app.org }}",
+        "repository": "{{ cookiecutter.app.name }}"
+    },
+    "go": {
+        "version": "TBD"
+    },
+    "spaq": {
+        "enabled": "y",
+        "service_key": ""
+    },
+    "aws_environments": {
+        "cicd": {
+            "account_id": "TBD",
+            "name": "TBD",
+            "deploy_role_arn": "TBD"
+        },
+        "dev_private": {
+            "account_id": "TBD",
+            "name": "TBD",
+            "deploy_role_arn": "TBD"
+        },
+        "dev": {
+            "account_id": "TBD",
+            "name": "TBD",
+            "deploy_role_arn": "TBD"
+        },
+        "test": {
+            "account_id": "TBD",
+            "name": "TBD",
+            "deploy_role_arn": "TBD"
+        },
+        "prod": {
+            "account_id": "TBD",
+            "name": "TBD",
+            "deploy_role_arn": "TBD"
+        }
+    }
+}
